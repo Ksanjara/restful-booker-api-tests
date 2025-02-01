@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static config.ProjectConfigCreator.config;
 
+@DisplayName("Delete booking")
 @Owner("Kseniia Kuznetsova")
 @Feature("Testing delete booking of Restful-Booker service")
 @Tag("api")

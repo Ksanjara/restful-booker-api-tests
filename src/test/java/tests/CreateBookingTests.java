@@ -7,7 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-
+@DisplayName("Create booking")
 @Owner("Kseniia Kuznetsova")
 @Feature("Testing of creation booking on Restful-Booker service")
 @Tag("api")

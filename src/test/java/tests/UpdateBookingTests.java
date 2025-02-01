@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static config.ProjectConfigCreator.config;
 
+@DisplayName("Update booking")
 @Owner("Kseniia Kuznetsova")
 @Feature("Testing of booking update on Restful-Booker service")
 @Tag("api")
