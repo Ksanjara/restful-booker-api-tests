@@ -15,7 +15,6 @@ public class TestData {
     public final Boolean depositPaid = faker.random().nextBoolean();
     public final LocalDate nonFormatCheckin = LocalDate.now().plusDays(faker.number().numberBetween(1, 365));
     public final String checkin = nonFormatCheckin.format(dtf).toString();
-    //faker.date().future(365, DAYS,).toString();
     public final LocalDate nonFormatCheckout = nonFormatCheckin.plusDays(faker.number().numberBetween(1, 30));
     public final String checkout = nonFormatCheckout.format(dtf).toString();
     public final String additionalNeeds = faker.options()

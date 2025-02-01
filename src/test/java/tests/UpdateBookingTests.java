@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.*;
 import models.Booking;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -7,9 +8,14 @@ import org.junit.jupiter.api.Test;
 
 import static config.ProjectConfigCreator.config;
 
+@Owner("Kseniia Kuznetsova")
+@Feature("Testing of booking update on Restful-Booker service")
+@Tag("api")
 public class UpdateBookingTests extends TestBase {
     @DisplayName("Update tourist name")
-    @Tag("API")
+    @Story("Testing of booking partial update")
+    @Severity(SeverityLevel.BLOCKER)
+    @Tag("Positive")
     @Test
     void updateFirstnameTest() {
         String token = steps.token(config.username(), config.password());
@@ -22,8 +28,9 @@ public class UpdateBookingTests extends TestBase {
     }
 
     @DisplayName("Update all booking info")
-    @Tag("API")
-    @Tag("ready")
+    @Story("Testing of booking update: update all info")
+    @Severity(SeverityLevel.CRITICAL)
+    @Tag("Positive")
     @Test
     void updateAllBookingTest() {
         String token = steps.token(config.username(), config.password());
@@ -35,7 +42,9 @@ public class UpdateBookingTests extends TestBase {
     }
 
     @DisplayName("Update total price")
-    @Tag("API")
+    @Story("Testing of booking partial update")
+    @Severity(SeverityLevel.BLOCKER)
+    @Tag("Positive")
     @Test
     void updateTotalPriceTest() {
         String token = steps.token(config.username(), config.password());
