@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static config.ProjectConfigCreator.config;
 
 public class DeleteBookingTests extends TestBase {
-    @DisplayName("Successful booking deletion")
+    @DisplayName("Delete booking successfully")
     @Tag("API")
     @Test
     void deleteBookingTest() {
