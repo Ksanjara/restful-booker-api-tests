@@ -20,6 +20,6 @@ public class TestData {
     public final String checkout = nonFormatCheckout.format(dtf).toString();
     public final String additionalNeeds = faker.options()
             .option("Breakfast", "Mini-Bar", "All inclusive", "Additional bed");
-    public final Integer randomId = faker.random().nextInt(1, 100);
+    public final Integer randomId = faker.random().nextInt(1, 50);
 
 }
