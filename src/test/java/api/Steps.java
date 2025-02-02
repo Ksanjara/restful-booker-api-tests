@@ -56,15 +56,6 @@ public class Steps {
     @Step("Create new booking data")
     public Booking createRandomBookingData() {
         Booking bookingData = new Booking();
-//        bookingData.setFirstname("testData.firstName");
-//        bookingData.setLastname("fdd");
-//        bookingData.setTotalprice(101);
-//        bookingData.setDepositpaid(true);
-//        BookingDates bookingDates = new BookingDates();
-//        bookingDates.setCheckin("1213");
-//        bookingDates.setCheckout("232");
-//        bookingData.setBookingdates(bookingDates);
-//        bookingData.setAdditionalneeds("23242");
         bookingData.setFirstname(testData.firstName);
         bookingData.setLastname(testData.lastName);
         bookingData.setTotalprice(testData.totalPrice);
