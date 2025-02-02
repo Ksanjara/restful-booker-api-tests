@@ -1,4 +1,4 @@
-# Automated API tests for Restful-Booker service
+# Automated API tests for [Restful-Booker](https://restful-booker.herokuapp.com/) service
 
 ## :page_with_curl: Content:
 
@@ -48,23 +48,23 @@ To run it please use `Build with Parameters` button, default credentials are set
 You can see the results via Allure Reports by clicking on Allure icon near build.
 
 <p align="center">
-<img src="media/screens/Jenkins_job_api.png" alt="Allure report" >
+<img src="media/screens/Jenkins_api.png" alt="Allure report" >
 </p>
 
 ---
 <a id="allureReport"></a>
-## <img src="media/logo/Allure_Report.svg" width="25" height="25"/> [Allure](https://jenkins.autotests.cloud/job/Melnikov_A-Beeline_autotests/61/allure/) Report
+## <img src="media/logo/Allure_Report.svg" width="25" height="25"/> [Allure](https://jenkins.autotests.cloud/job/C31-ksanjara-java_23_diploma-api-tests/) Report
 
 ### 🖨️ Report main page
 
 <p align="center">
-<img src="media/screens/allure_auto_main.png" alt="Allure report" width="1000" height="400">
+<img src="media/screens/Allure_report_main_api.png" alt="Allure report">
 </p>
 
 ### 📄 Test cases page
 
 <p align="center">
-<img src="media/screens/allure_auto_2.png" alt="Test Case" width="1000" height="400">
+<img src="media/screens/Allure_report_cases_api.png" alt="Test Case">
 </p>
 
 ---
@@ -77,7 +77,7 @@ You can see the results via Allure Reports by clicking on Allure icon near build
 ### Notification example in telegram channel
 
 <p align="center">
-<img src="media/screens/telegram_main.png" alt="TestOps launch" width="500" height="400">
+<img src="media/screens/Telegram_notif_api.png" alt="Telegram notification">
 </p>
 
 
