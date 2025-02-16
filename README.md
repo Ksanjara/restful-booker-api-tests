@@ -6,7 +6,9 @@
 - <a href="#checking"> Test cases</a>
 - <a href="#console"> How to run tests using command line</a>
 - <a href="#jenkins"> Jenkins build</a>
-- <a href="#allureReport"> Allure report</a>
+- <a href="#report"> Allure report</a>
+- <a href="#testops"> Integration with Allure TestOps</a>
+- <a href="#jira"> Integration with Jira</a>
 - <a href="#tg"> Telegram notifications using chat bot</a>
 ---
 
@@ -52,7 +54,7 @@ You can see the results via Allure Reports by clicking on Allure icon near build
 </p>
 
 ---
-<a id="allureReport"></a>
+<a id="report"></a>
 ## <img src="media/logo/Allure_Report.svg" width="25" height="25"/> [Allure](https://jenkins.autotests.cloud/job/C31-ksanjara-java_23_diploma-api-tests/) Report
 
 ### 🖨️ Report main page
@@ -65,6 +67,29 @@ You can see the results via Allure Reports by clicking on Allure icon near build
 
 <p align="center">
 <img src="media/screens/Allure_report_cases_api.png" alt="Test Case">
+</p>
+
+---
+<a id="testops"></a>
+## <img src="media/logo/AllureTestOps.svg" width="25" height="25"/> Integration with [Allure TestOps](https://allure.autotests.cloud/project/4635/test-cases?treeId=0)
+
+### 🖨️ Dashboard page
+<p align="center">
+<img src="media/screens/Allure_dasboard.png" alt="Allure testOps">
+</p>
+
+### 📄 Test cases page
+<p align="center">
+<img src="media/screens/Allure_cases.png" alt="Allure test cases">
+</p>
+
+---
+<a id="jira"></a>
+## <img src="media/logo/Jira.svg" width="25" height="25"/> Integration with [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1402)
+
+### Jira task with Allure TestOps integration
+<p align="center">
+<img src="media/screens/Jira.png" alt="Jira task">
 </p>
 
 ---
